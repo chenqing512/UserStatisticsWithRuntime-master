@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164E13761E9B68EF006013FA /* WGlobalUserStatisticsConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 164E13731E9B68EF006013FA /* WGlobalUserStatisticsConfig.plist */; };
+		164E13771E9B68EF006013FA /* WUserStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 164E13751E9B68EF006013FA /* WUserStatistics.m */; };
 		1906CE1A1CA53BB500F8FA6F /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1906CE191CA53BB500F8FA6F /* Aspects.m */; };
 		1906CE1D1CA53F1400F8FA6F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1906CE1C1CA53F1400F8FA6F /* DetailViewController.m */; };
-		1906CE1F1CA5430300F8FA6F /* WGlobalUserStatisticsConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1906CE1E1CA5430300F8FA6F /* WGlobalUserStatisticsConfig.plist */; };
 		190EAD7C1C11309C00AE2CCB /* UIControl+userStastistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 190EAD751C11309C00AE2CCB /* UIControl+userStastistics.m */; };
 		190EAD7D1C11309C00AE2CCB /* UIViewController+userStastistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 190EAD771C11309C00AE2CCB /* UIViewController+userStastistics.m */; };
-		190EAD7E1C11309C00AE2CCB /* WUserStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 190EAD791C11309C00AE2CCB /* WUserStatistics.m */; };
 		19917CEA1CBB3459007D8F2A /* iconVersioning.sh in Resources */ = {isa = PBXBuildFile; fileRef = 19917CE91CBB3459007D8F2A /* iconVersioning.sh */; };
 		19A5757C1CB50BB6002C40DB /* EventIDMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A5757B1CB50BB6002C40DB /* EventIDMappingTests.m */; };
 		19A5758B1CB6677E002C40DB /* WHookUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A5758A1CB6677E002C40DB /* WHookUtility.m */; };
@@ -36,17 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		164E13721E9B68EF006013FA /* WEventIDConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEventIDConstant.h; sourceTree = "<group>"; };
+		164E13731E9B68EF006013FA /* WGlobalUserStatisticsConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WGlobalUserStatisticsConfig.plist; sourceTree = "<group>"; };
+		164E13741E9B68EF006013FA /* WUserStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserStatistics.h; sourceTree = "<group>"; };
+		164E13751E9B68EF006013FA /* WUserStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserStatistics.m; sourceTree = "<group>"; };
 		1906CE181CA53BB500F8FA6F /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		1906CE191CA53BB500F8FA6F /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		1906CE1B1CA53F1400F8FA6F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		1906CE1C1CA53F1400F8FA6F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		1906CE1E1CA5430300F8FA6F /* WGlobalUserStatisticsConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WGlobalUserStatisticsConfig.plist; sourceTree = "<group>"; };
 		190EAD741C11309C00AE2CCB /* UIControl+userStastistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+userStastistics.h"; sourceTree = "<group>"; };
 		190EAD751C11309C00AE2CCB /* UIControl+userStastistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+userStastistics.m"; sourceTree = "<group>"; };
 		190EAD761C11309C00AE2CCB /* UIViewController+userStastistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+userStastistics.h"; sourceTree = "<group>"; };
 		190EAD771C11309C00AE2CCB /* UIViewController+userStastistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+userStastistics.m"; sourceTree = "<group>"; };
-		190EAD781C11309C00AE2CCB /* WUserStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserStatistics.h; sourceTree = "<group>"; };
-		190EAD791C11309C00AE2CCB /* WUserStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserStatistics.m; sourceTree = "<group>"; };
 		19917CE91CBB3459007D8F2A /* iconVersioning.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = iconVersioning.sh; sourceTree = "<group>"; };
 		19A5757B1CB50BB6002C40DB /* EventIDMappingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventIDMappingTests.m; sourceTree = "<group>"; };
 		19A575891CB6677E002C40DB /* WHookUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHookUtility.h; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		19CF070F1BCE222000B6D195 /* WZLDemoCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZLDemoCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CF07141BCE222000B6D195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19CF07151BCE222000B6D195 /* WZLDemoCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZLDemoCollectionTests.m; sourceTree = "<group>"; };
-		19E607881CAE77FA00D047B9 /* WEventIDConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEventIDConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				190EAD731C11309C00AE2CCB /* Category_Statistics */,
-				190EAD781C11309C00AE2CCB /* WUserStatistics.h */,
-				190EAD791C11309C00AE2CCB /* WUserStatistics.m */,
-				1906CE1E1CA5430300F8FA6F /* WGlobalUserStatisticsConfig.plist */,
-				19E607881CAE77FA00D047B9 /* WEventIDConstant.h */,
 			);
 			path = UserStatistics;
 			sourceTree = "<group>";
@@ -123,6 +119,10 @@
 				190EAD751C11309C00AE2CCB /* UIControl+userStastistics.m */,
 				190EAD761C11309C00AE2CCB /* UIViewController+userStastistics.h */,
 				190EAD771C11309C00AE2CCB /* UIViewController+userStastistics.m */,
+				164E13721E9B68EF006013FA /* WEventIDConstant.h */,
+				164E13731E9B68EF006013FA /* WGlobalUserStatisticsConfig.plist */,
+				164E13741E9B68EF006013FA /* WUserStatistics.h */,
+				164E13751E9B68EF006013FA /* WUserStatistics.m */,
 			);
 			path = Category_Statistics;
 			sourceTree = "<group>";
@@ -274,8 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19CF07051BCE222000B6D195 /* Main.storyboard in Resources */,
-				1906CE1F1CA5430300F8FA6F /* WGlobalUserStatisticsConfig.plist in Resources */,
 				19CF070A1BCE222000B6D195 /* LaunchScreen.xib in Resources */,
+				164E13761E9B68EF006013FA /* WGlobalUserStatisticsConfig.plist in Resources */,
 				19917CEA1CBB3459007D8F2A /* iconVersioning.sh in Resources */,
 				19CF07071BCE222000B6D195 /* Images.xcassets in Resources */,
 			);
@@ -316,8 +316,8 @@
 				190EAD7C1C11309C00AE2CCB /* UIControl+userStastistics.m in Sources */,
 				19A5758B1CB6677E002C40DB /* WHookUtility.m in Sources */,
 				19CF06FF1BCE222000B6D195 /* AppDelegate.m in Sources */,
+				164E13771E9B68EF006013FA /* WUserStatistics.m in Sources */,
 				1906CE1D1CA53F1400F8FA6F /* DetailViewController.m in Sources */,
-				190EAD7E1C11309C00AE2CCB /* WUserStatistics.m in Sources */,
 				19CF06FC1BCE222000B6D195 /* main.m in Sources */,
 				190EAD7D1C11309C00AE2CCB /* UIViewController+userStastistics.m in Sources */,
 			);
